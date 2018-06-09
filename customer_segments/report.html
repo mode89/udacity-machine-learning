@@ -13928,7 +13928,7 @@ RNRGklZERNRGklZERNRGklZERNRGklZERNTG/wffgcujOqDeQgAAAABJRU5ErkJggg==
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
 <ul>
-<li>According to the scatter matrix, all of the features distributed normally. There is a large number of data points near the the zero.</li>
+<li>According to the scatter matrix, the distribution of each of the features is highly skewed, and suggests that the majority of the customers represented by small resellers.</li>
 <li>Grocery and Detergent_Papers features exhibit some degree of correlation.</li>
 <li>It confirms my suspicions about the relevance of the Grocery feature.</li>
 <li>The data of the correlated features distributed along a line.</li>
@@ -18625,8 +18625,8 @@ dgAAAABJRU5ErkJggg==
 <li>Around 93% of variance is explained by the first four principal components.</li>
 <li>The first PC well represents Detergents_Paper, Milk and Grocery features. It can represent supermarkets.</li>
 <li>The second PC well represents Fresh, Frozen and Delicatessen features. It can represent restaurants.</li>
-<li>The third PC well represents Fresh, Frozen and Delicatessen features. It can represent small and big restaurants.</li>
-<li>The fourth PC well represents Frozen and Delicatessen features. It can represent shops selling frozen goods and small street restaurants cooking fresh food and delicatessen.</li>
+<li>The third PC well represents Fresh, Frozen and Delicatessen features. Fresh is negatively corellated with Frozen and Delicatessen, which means that in this dimension those resellers that buy fresh food, buy only a small amount of frozen food and deli. And those resellers that buy small amount of fresh goods, buy more frozen and deli goods. It can represent small and big restaurants.</li>
+<li>The fourth PC well represents Frozen and Delicatessen features. These features are negatively corellated in this dimension, which means that in this dimensions we get information gain about those resellers who buys either frozen goods or deli. It can represent shops selling frozen goods and small street restaurants cooking fresh food and delicatessen.</li>
 <li>The fifth PC well represents Fresh, Milk and Detergents_Paper features.</li>
 <li>The sixth PC well represents Milk and Grocery features.</li>
 </ul>
